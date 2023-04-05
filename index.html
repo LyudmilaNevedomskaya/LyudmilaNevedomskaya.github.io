@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mila's Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" type="image/png" href="./images/icon.png"/>
+</head>
+<body class="Background">
+  <!--Navbar-->
+  <div class="Navbar">
+      <a class="active" href="#Home">Home</a>
+      <a href="#About">About</a>
+      <a href="#GitHub">GitHub</a>
+      <a href="#Contact">Contact</a>
+  </div>
+
+  <!--Breaks inserted to add space between navbar and the first heading-->
+  <br>
+  <br>
+
+  <!--Background video-->
+  <div id="Home">
+    <img class="bg-img" src="./images/vd.jpg" alt="Coding">
+      <video autoplay muted loop id="Typing_Video">
+        <source src="./video/video2.mp4" type="video/mp4">
+        <!--Display message if video fails to run-->
+        Your browser does not support HTML5 video.
+      </video>
+      
+      <!--Video text-->
+    <div class="Video_Text">
+      <h1 class="white-text">Mila's Portfolio</h1>
+      <strong>
+        <p class="center">
+          <q>The computer programmer is a creator of universes for which he alone is the lawgiver.
+            No playwright, no stage director, no emperor, however powerful, has ever exercised such absolute authority to arrange a stage or
+            field of battle and to command such unswervingly dutiful actors or troops.
+          </q> -Joseph Weizenbaum
+          <br>
+          <br> My name is Mila. Welcome to my portfolio website. On it, I will tell you about my background and experience.
+          <br>
+          <br> Thank you for stopping by and enjoy! 
+        </p>
+      </strong>
+    </div>
+  </div>
+
+  <!--About section-->
+  <div class="Row-1" id="About">
+    <div class="Column_2">
+      <img src="./images/1.jpg" alt="No bad days image">
+    </div>
+    <div class="Column_1">
+      <h1>About</h1>
+      <p>
+        I am a software developer who loves to code! As a mother of young boy, I enjoy time with my family and traveling. 
+        <br>
+        <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>'s Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, React, SQL, C# and more. 
+        <br>
+        <br>I am a full-stack developer and would love to work with you on your project. <a href="#Contact">Contact</a> me below!
+      </p>
+    </div>
+  </div>
+
+  <!--GitHub section-->
+  <div class="Row-2" id="GitHub">
+    <!--Left column-->
+    <div class="Column_1">
+      <h1>GitHub</h1>
+      <p> During my education and when I just have free time, I create different interesting projects using a variety of techniques. You can view my coding projects on my GitHub profile here:
+        <br>
+        <p class="center"><a href="https://github.com/LyudmilaNevedomskaya" target="_blank">My GitHub</a></p>
+      </p>
+    </div>
+    <!--Right column-->
+    <div class="Column_2">
+      <a href="https://github.com/the-tech-academy" target="_blank"><img src="./images/github.png" alt="GitHub Logo"></a>
+    </div>
+  </div>
+
+  <!--Contact section-->
+  <div class="Row-1">
+    <div class="Column_2 Column_tall">
+      <img src="./images/Contact.jpg" alt="Contact_Image">
+    </div>
+    <div class="Column_1 Column_tall"  id="Contact">
+      <h1>Contact</h1>
+        <form action="https://formspree.io/f/xnqygrrg" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+          <label>Name:</label>
+          <input type="text" name="Name" placeholder="Please enter your name here">
+          <label>Email:</label>
+          <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+          <label>Message:</label>
+          <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+          <input type="submit" value="SUBMIT">
+        </form>
+    </div>
+  </div>
+
+  <!--Footer section-->
+  <footer>
+    <p class="center">&copy;2023 Mila Corporation, <a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy Student</a></p>
+  </footer>
+</body>
+</html>
