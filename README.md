@@ -4,5 +4,5 @@
 
 * [Visit my Portfolio](https://lyudmilanevedomskaya.github.io/ "Mila's Portfolio")
 
-![Full screen view](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Full Screen View")
-![Mobile View](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Mobile View")
+![Full screen view](https://github.com/LyudmilaNevedomskaya/LyudmilaNevedomskaya.github.io/blob/main/data/Screenshot.png "Full Screen View")
+![Mobile View](https://github.com/LyudmilaNevedomskaya/LyudmilaNevedomskaya.github.io/blob/main/data/Screenshot1.png "Mobile View")
