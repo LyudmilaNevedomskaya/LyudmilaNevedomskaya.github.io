@@ -267,6 +267,12 @@ footer {
   height: 450px;
 }
 
+@media screen and (max-width: 1150px) {
+  .about-description {
+    font-size: 18px;
+  }
+}
+
 @media screen and (max-width: 860px) {
   .Row-1 {
     flex-direction: column-reverse;
