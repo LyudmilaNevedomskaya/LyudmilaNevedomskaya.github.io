@@ -371,6 +371,7 @@ form {
   padding-top: 4%; /* Adds a small padding to the top of the slideshow container */
   position: relative; /* This sets the container relative to its normal positioning */
   margin: auto; /* This will horizontally center the container on the page */
+  max-width: 500px;
 }
 
 /* Remove the underline from the previous and next buttons on the slideshow */
@@ -384,6 +385,7 @@ form {
   height: auto; /* The height of the images is automatically adjusted based on the content, ie if your images are different sizes, they will display as different sizes */
   box-shadow: 0px 5px 10px 12px rgba(0, 0, 0, 0.75); /* Adds a shadow around the slideshow images */
   width: 100%; /* The width of the images is automatically adjusted based on the content */
+  max-width: 500px;
 }
 
 /* Next and previous buttons */
@@ -438,6 +440,7 @@ form {
     0.75
   ); /* Gives a slightly transparent black background */
   font-weight: bold;
+  max-width: 500px;
 }
 
 /* Styling of the dots under the slideshow */
